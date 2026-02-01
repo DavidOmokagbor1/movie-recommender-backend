@@ -1,0 +1,19 @@
+steps:
+  - name: 'gcr.io/k8s-skaffold/pack'
+    args:
+      - 'build'
+      - '$_SERVICE_IMAGE'
+      - '--builder'
+      - 'gcr.io/buildpacks/builder:latest'
+      - '--env'
+      - 'GOOGLE_PYTHON_VERSION=3.9'
+    env:
+      - 'GOOGLE_PYTHON_VERSION=3.9'
+
+images:
+  - '$_SERVICE_IMAGE'
+
+options:
+  machineType: 'E2_HIGHCPU_8'
+  env:
+    - 'GOOGLE_PYTHON_VERSION=3.9'

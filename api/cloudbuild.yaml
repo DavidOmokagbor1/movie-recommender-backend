@@ -1,0 +1,15 @@
+# ML API - Build with Docker (Python 3.9), not buildpacks
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - '$_SERVICE_IMAGE'
+      - '.'
+    dir: 'fullstack_recsys/api'
+
+images:
+  - '$_SERVICE_IMAGE'
+
+options:
+  machineType: 'E2_HIGHCPU_8'
