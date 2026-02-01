@@ -25,7 +25,7 @@ class Config:
 		if os.getenv('FLASK_ENV') == 'production':
 			raise ValueError(
 				"MONGODB_URI environment variable is required in production. "
-				"Set it with: export MONGODB_URI='mongodb+srv://username:password@cluster.mongodb.net/?appName=MovieRecommender'"
+				"Set it with: export MONGODB_URI='mongodb+srv://<your-username>:<your-password>@<your-cluster>.mongodb.net/?appName=MovieRecommender'"
 			)
 		MONGODB_URI = None  # Will use SQLite fallback
 	else:
