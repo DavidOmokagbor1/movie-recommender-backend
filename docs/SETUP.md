@@ -13,7 +13,7 @@ Detailed setup instructions for the Movie Recommender Backend.
 
 ```bash
 git clone <your-repo-url>
-cd movie-recommender-backend
+cd apple-tv-prototype-backend
 ```
 
 ## Step 2: Backend Setup

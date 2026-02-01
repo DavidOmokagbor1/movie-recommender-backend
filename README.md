@@ -14,7 +14,7 @@ A production-ready backend API for movie recommendations with machine learning i
 1. **Clone the repository**
 ```bash
 git clone <your-repo-url>
-cd movie-recommender-backend
+cd apple-tv-prototype-backend
 ```
 
 2. **Set up Backend**
