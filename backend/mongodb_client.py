@@ -1,5 +1,5 @@
 """
-MongoDB connection module for Movie Recommender
+MongoDB connection module for Apple TV Prototype Backend
 Handles connection to MongoDB Atlas
 """
 from pymongo import MongoClient

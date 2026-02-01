@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Comprehensive endpoint testing script for Movie Recommender Backend
+Comprehensive endpoint testing script for Apple TV Prototype Backend
 Tests all endpoints and verifies frontend-backend communication
 """
 
@@ -100,7 +100,7 @@ def test_cors_headers(endpoint: str, method: str = 'GET') -> Tuple[bool, Dict]:
 def main():
     """Run all tests"""
     print("=" * 70)
-    print("Movie Recommender Backend - Endpoint Testing")
+    print("Apple TV Prototype Backend - Endpoint Testing")
     print("=" * 70)
     print(f"Testing against: {BASE_URL}")
     print(f"Frontend Origin: {FRONTEND_ORIGIN}")

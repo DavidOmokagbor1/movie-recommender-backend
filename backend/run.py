@@ -30,7 +30,7 @@ else:
 def index():
 	"""Root endpoint - API info and health"""
 	return jsonify({
-		'service': 'Movie Recommender API',
+		'service': 'Apple TV Prototype Backend API',
 		'status': 'running',
 		'endpoints': {
 			'health': '/health',

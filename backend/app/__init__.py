@@ -25,7 +25,7 @@ allowed_origins = [
     "http://localhost:5052",
     "http://127.0.0.1:3000",
     "http://127.0.0.1:5052",
-    "https://movie-recommender-delta-eight.vercel.app",  # Vercel frontend
+    # Add Apple TV frontend URL when deployed
 ]
 
 # Add Vercel domain from environment variable if set

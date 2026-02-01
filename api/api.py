@@ -132,7 +132,7 @@ def health_check():
     """Health check endpoint"""
     return jsonify({
         'status': 'healthy',
-        'service': 'recommendation-api'
+        'service': 'apple-tv-prototype-ml-api'
     }), 200
 
 @app.errorhandler(404)
